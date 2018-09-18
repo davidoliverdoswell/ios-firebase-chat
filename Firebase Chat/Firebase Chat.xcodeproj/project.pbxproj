@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491757B32151AD6600F8D879 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491757B22151AD6600F8D879 /* ChatTableViewController.swift */; };
 		49C05038215195AD008C2506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C05037215195AD008C2506 /* AppDelegate.swift */; };
-		49C0503A215195AD008C2506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C05039215195AD008C2506 /* ViewController.swift */; };
 		49C0503D215195AD008C2506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C0503B215195AD008C2506 /* Main.storyboard */; };
 		49C0503F215195AE008C2506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C0503E215195AE008C2506 /* Assets.xcassets */; };
 		49C05042215195AE008C2506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C05040215195AE008C2506 /* LaunchScreen.storyboard */; };
@@ -17,9 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		491757B22151AD6600F8D879 /* ChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
 		49C05034215195AD008C2506 /* Firebase Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C05037215195AD008C2506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49C05039215195AD008C2506 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49C0503C215195AD008C2506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49C0503E215195AE008C2506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49C05041215195AE008C2506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +42,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		491757B42151AD6C00F8D879 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				491757B22151AD6600F8D879 /* ChatTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		491757B52151AD7400F8D879 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49C0503E215195AE008C2506 /* Assets.xcassets */,
+				49C05040215195AE008C2506 /* LaunchScreen.storyboard */,
+				49C0503B215195AD008C2506 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		491757B62151AD7900F8D879 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		49C0502B215195AD008C2506 = {
 			isa = PBXGroup;
 			children = (
@@ -64,12 +89,11 @@
 			isa = PBXGroup;
 			children = (
 				49C05037215195AD008C2506 /* AppDelegate.swift */,
-				49C05039215195AD008C2506 /* ViewController.swift */,
-				49C0503B215195AD008C2506 /* Main.storyboard */,
-				49C0503E215195AE008C2506 /* Assets.xcassets */,
-				49C05040215195AE008C2506 /* LaunchScreen.storyboard */,
 				49C05043215195AE008C2506 /* Info.plist */,
 				49C050492151A390008C2506 /* GoogleService-Info.plist */,
+				491757B62151AD7900F8D879 /* Models */,
+				491757B52151AD7400F8D879 /* Views */,
+				491757B42151AD6C00F8D879 /* Controllers */,
 			);
 			path = "Firebase Chat";
 			sourceTree = "<group>";
@@ -218,8 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49C0503A215195AD008C2506 /* ViewController.swift in Sources */,
 				49C05038215195AD008C2506 /* AppDelegate.swift in Sources */,
+				491757B32151AD6600F8D879 /* ChatTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
